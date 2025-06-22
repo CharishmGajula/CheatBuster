@@ -1,0 +1,125 @@
+/* ----------PAGE2--------- */
+/* FOR DATA FOUND */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Wrapper */
+.results-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 60px;
+}
+
+/* Title */
+.results-title {
+  font-size: 36px;           /* reduced from 48px */
+  color: #00ffff;
+  font-weight: 600;
+  margin-bottom: 10px;       /* reduced spacing below */
+  letter-spacing: 0.5px;
+}
+
+
+/* Card */
+.results-card {
+  background-color: #111;
+  padding: 30px;
+  border-radius: 16px;
+  border: 2px solid #00ffff; /* simple aqua border */
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Image */
+.results-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #00ffff;
+  margin-bottom: 20px;
+}
+
+/* Text */
+.results-data h2 {
+  color: #00ffff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.results-data h3 {
+  font-size: 18px;
+  margin: 6px 0;
+  color: white;
+}
+
+button {
+    margin-top: 30px;
+    padding: 12px;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* DATA NOT FOUND */
+
+.trust-message {
+  background-color: #111;
+  border: 2px solid #00ffff;
+  border-radius: 16px;
+  padding: 40px 30px;
+  max-width: 600px;
+  text-align: center;
+  margin: 100px auto;
+  color: white;
+}
+
+.trust-message h1 {
+  color: #00ffff;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.trust-message p {
+  font-size: 16px;
+  margin: 14px 0;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.trust-button {
+  margin-top: 30px;
+  background-color: #00ffff;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.trust-button:hover {
+  background-color: #00cccc;
+}
+
