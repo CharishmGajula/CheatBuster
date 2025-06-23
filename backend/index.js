@@ -9,11 +9,13 @@ import { safeParse } from "zod/v4-mini";
 import Cheaters from "./models/user.model.js";
 import router from "./routes/user.routes.js";
 import cors from "cors";
+import { setupSwagger } from './swagger.js';
 
 dotenv.config();
 const app=express();
 app.use(express.json());
 app.use(logger);
+setupSwagger(app);
 app.use(cors({
   origin: "http://127.0.0.1:5500",
   methods: ["GET", "POST"],
