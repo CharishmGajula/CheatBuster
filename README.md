@@ -25,6 +25,19 @@
 ![image](https://github.com/user-attachments/assets/e373d7a7-6670-47da-99c6-6b9a6c3c061a)
 
 
+## OPEN API SPEC AND SWAGGER
+![image](https://github.com/user-attachments/assets/5e74b44c-e6ac-43e8-8d29-b7f7e2406bc0)
+
+
+![image](https://github.com/user-attachments/assets/dc2683a8-19c9-4467-b3c7-d8cac4c87ec9)
+
+## DATABASE(50 DOCUMENTS)
+![image](https://github.com/user-attachments/assets/053becff-d5e3-4be3-a0f9-a1912a5b83cf)
+
+
+
+
+
 
 
 
